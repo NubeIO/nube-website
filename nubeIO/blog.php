@@ -58,23 +58,24 @@
 
                         <div class="blog-item">
                             <div class="single-latest-news animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="animation-duration: 0.6s; animation-delay: 0.1s;">
-                                <a href="blog-cart5.php">
-                                    <img src="images/image5.jpg" alt="">
+                                <a href="blog-cart7.php">
+                                    <img src="/assets/images/image5.jpg" alt="">
                                 </a>
                                 <ul class="post-details list-inline">
                                     <li>
                                         <i class="fa fa-calendar-o"></i>
-                                        <a href="#">May 21, 2018</a>
+                                        <a href="#">July 9, 2018</a>
                                     </li>
                                      <li>
                                         <a href="#">Company News</a>
                                     </li>
                                 </ul>
                                 <h2>
-                                  <a href="blog-cart5.php">Meet Nube iO</a>
+                                  <a href="blog-cart5.php">Nube iO Collaborates with the Smart Infrastructure Facility and Devika</a>
                               </h2>
-                              <p>Nube iO is an emerging IoT technology company that has developed new software
-and hardware platforms for an ever-changing world.</p>
+                                <p>
+                                    Nube iO recently partnered with the University of Wollongong’s SMART Infrastructure Facility and Devika to produce a 3D virtual model of the digital living lab utilising Nube iO’s smart sensors. The collaboration involved installing 120 of our smart sensor Droplets into each room in the building, to monitor features of the built environment in real time such as temperature, humidity, light and motion.  
+                                </p>
                             </div>
                         </div>
                    

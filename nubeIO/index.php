@@ -624,7 +624,23 @@
 		</div>
 		<div class="container">
 			<div class="row blogs">
-				<div class="col-lg-4 col-md-4">
+			<div class="col-lg-4 col-md-4">
+					 <div class="single-latest-news animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="animation-duration: 0.6s; animation-delay: 0.1s;">
+                       	<a href="blog-cart6.php">
+                            <img src="images/image5.jpg" alt="">
+                        </a>
+                        <ul class="post-details list-inline">
+                            <li>
+                                <i class="fa fa-calendar-o"></i>
+                                <a href="#">May 21, 2018</a>
+                            </li>
+                        </ul>
+                        <h2>
+                          <a href="blog-cart5.php">Meet Nube iO</a>
+                      </h2>
+                    </div>
+				</div>
+                            <div class="col-lg-4 col-md-4">
 					 <div class="single-latest-news animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="animation-duration: 0.6s; animation-delay: 0.1s;">
                        	<a href="blog-cart5.php">
                             <img src="images/image5.jpg" alt="">

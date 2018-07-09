@@ -87,7 +87,7 @@
 	            <div class="left-col">
 	                <h3>Advanced Technology</h3>
 	                <p>
-						 The droplet is a LoRa-enabled battery-operated environmental sensor, built to adress the problem of wanting multiple points of data capture with minimal time for install and wiring. LoRa wireless technology requires less power and is more reliable in communicating information to the receiver than regular WiFi.
+						 The droplet is a LoRa-enabled battery-operated environmental sensor, built to address the problem of wanting multiple points of data capture with minimal time for install and wiring. LoRa wireless technology requires less power and is more reliable in communicating information to the receiver than regular WiFi.
 	                </p>
 	                <p>
 	                    Nube droplets can be easily installed on any surface to collect multiple data points. The receiver, in turn, aggregates, interprets, and then sends this information over to a local server or the cloud.
