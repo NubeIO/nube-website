@@ -1,0 +1,39 @@
+.main-banner{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;min-height:200px;margin-top:80px;background-color:#339999;background-image:url(/images/bgservices.jpg);}
+.right-col img{max-width:100%;}
+.main-banner .main-banner-wrapper{text-align:center;}
+.main-banner .main-banner-wrapper h1{font-weight:900;font-size:30px;color:#fff;letter-spacing:1.30px;line-height:40px;margin-bottom:10px;text-transform:uppercase;}
+.main-banner .main-banner-wrapper p{font-size:18px;color:#fff;font-weight:300;}
+.main-banner .main-banner-wrapper .btn{margin-top:20px;background-color:#fff;line-height:33px;color:#339999;}
+.main-banner .main-banner-wrapper .btn:hover{color:#fff;background:#339999;}
+.dashboard .dashboard-wrapper{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+@media (max-width:1024px){.dashboard .dashboard-wrapper{-webkit-box-orient:vertical !important;-webkit-box-direction:reverse !important;-ms-flex-direction:column-reverse !important;flex-direction:column-reverse !important;}
+.dashboard .dashboard-wrapper img{left:auto !important;right:auto !important;}
+}
+.dashboard.reverse.section{padding-top:0 !important;}
+.dashboard.reverse .dashboard-wrapper{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;}
+.dashboard .dashboard-wrapper .right-col{max-width:520px;}
+.dashboard .dashboard-wrapper .left-col{max-width:720px;}
+.dashboard .dashboard-wrapper h3{font-weight:400;font-size:30px;color:#339999;letter-spacing:1.30px;line-height:40px;margin-bottom:20px;}
+.dashboard .dashboard-wrapper p{margin-bottom:15px;font-size:15px;color:#3B566E;}
+.dashboard .dashboard-wrapper ul{padding-left:20px;}
+.dashboard .dashboard-wrapper ul li{list-style:circle;color:#3B566E;}
+.dashboard .dashboard-wrapper img{position:relative;max-width:100%;}
+.dashboard.reverse .dashboard-wrapper img{left:auto;right:50px;}
+.application.section{padding-top:0 !important;}
+.application .application-wrapper{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:flex-start;}
+@media (max-width:770px){.application .application-wrapper .right-col{padding-top:0 !important;}
+.application .application-wrapper{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}
+}
+.application .application-wrapper .left-col{max-width:720px;padding-right:15px;}
+.application .application-wrapper h4{font-weight:400;font-size:30px;color:#339999;letter-spacing:1.30px;line-height:40px;margin-bottom:20px;position:relative;}
+.application .application-wrapper h4::after{content:'';position:absolute;display:block;height:1px;width:50px;background-color:#c2c2c2;top:45px;left:0;}
+.application .application-wrapper p{font-size:15px;line-height:1.6;margin-bottom:25px;color:#3B566E;}
+/*.application .application-wrapper .right-col{padding-top:60px;}*/
+.application .application-wrapper .right-col .features li a{color:#3B566E;font-size:15px;padding-left:5px;}
+.application .application-wrapper .right-col .features li::before{content:'';display:inline-block;vertical-align:middle;background-image:url(../images/icons/check.svg);width:16px;height:16px;background-size:contain;background-repeat:no-repeat;}
+.proposal{display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;text-align:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#339999;min-height:400px;}
+.proposal .proposal-wrapper h3{font-weight:900;font-size:30px;color:#fff;letter-spacing:1.30px;line-height:40px;margin-bottom:30px;}
+@media (max-width:600px){.proposal .proposal-wrapper h3{font-size:22px;}
+}
+.proposal .proposal-wrapper button{margin-top:20px;background-color:#fff;line-height:33px;color:#339999;}
+.proposal .proposal-wrapper button:hover{background-color:#339999;color:#fff;}
