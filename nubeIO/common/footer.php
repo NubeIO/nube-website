@@ -8,7 +8,7 @@
 							<h3 class="section-title">Get In Touch</h3>
 							<p>Do you have any questions about Nube iO? Are you interested in partnership or investment opportunities? We want to hear from you.</p>
 							<ul class="list">
-								<li><i class="fa fa-envelope-o"></i><a href="mailto:info@nubeio.com.au">info@nubeio.com.au</a></li>
+								<li><i class="fa fa-envelope-o"></i><a href="mailto:info@nubeio.com.au">info@nube-io.com</a></li>
 								<li><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/company/nube-io/">Follow us on LinkedIn</a></li>
 							</ul>
 						
