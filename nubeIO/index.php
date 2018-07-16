@@ -205,7 +205,7 @@
                         <li>
                             <img src="assets/images/icons/Asset 27.png" alt="">
                             <p>
-                                <a href="#">CO<sub>2</sub></a>
+                                <a href="#">CO<sub>2</sub>(Coming Soon)</a>
                             </p>
                         </li>
                     </ul>
