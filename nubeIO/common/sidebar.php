@@ -5,16 +5,6 @@
             <button type="submit"><i class="fa fa-search"></i></button>
             
         </form>
-        
-        <div class="sidebar-categories">
-            <div class="list">
-                <form class="subscribe-form fadeInUp" action="">
-                    <input type="email" class="form-control" name="email" placeholder="E-mail" required="">
-                    <button type="submit" class="btn-subscribe btn-secondary-box">Subscribe</button>
-                </form>
-            </div>
-        </div>
-        
         <div class="sidebar-categories">
            <h2>Categories</h2>
             <div class="list">
