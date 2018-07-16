@@ -51,9 +51,6 @@
 	        <div class="main-banner-wrapper">
 	            <h1>ABOUT US</h1>
 	            <p>Our mission, values, and team</p>
-	            <a href="#contact-us" class="btn btn-secondary-box">CONTACT US</a>
-	            <div class="remodal" data-remodal-id="contact-us">
-                    <button data-remodal-action="close" class="remodal-close"></button>
                     <div class="modal-info">
                         <div class="feedback-wrapper">
                             <div class="form">
