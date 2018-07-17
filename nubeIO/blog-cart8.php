@@ -70,12 +70,12 @@
                         
                         <p>
                             Communicating over a wireless protocol and powered by battery completely eliminates the need for infrastructure changes. This decreases deployment time and costs associated. Our sensing scope covers most primary sensing requirements. These include: 
-Temperature
-Humidity
-Light Levels
-Presence
-Pressure
-Movement
+<li>Temperature</li>
+<li>Humidity</li>
+<li>Light Levels</li>
+<li>Presence</li>
+<li>Pressure</li>
+<li>Movement</li>
 
                         </p>
                         <p>
