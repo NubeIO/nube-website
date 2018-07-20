@@ -51,27 +51,6 @@
 	        <div class="main-banner-wrapper">
 	            <h1>ABOUT US</h1>
 	            <p>Our mission, values, and team</p>
-                    <div class="modal-info">
-                        <div class="feedback-wrapper">
-                            <div class="form">
-                                <form action="" class="contact-form page">
-                                    <textarea rows="8" name="contactMessage" class="form-control animated fadeInUp" placeholder="Write your text" data-animate="fadeInUp" data-delay=".1" required="" style="animation-duration: 0.6s; animation-delay: 0.1s;"></textarea>
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <input type="text" name="contactName" class="form-control animated fadeInUp" placeholder="Name" data-animate="fadeInUp" data-delay=".2" required="" style="animation-duration: 0.6s; animation-delay: 0.2s;">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <input type="email" name="contactEmail" class="form-control animated fadeInUp" placeholder="E-mail" data-animate="fadeInUp" data-delay=".3" required="" style="animation-duration: 0.6s; animation-delay: 0.3s;">
-                                        </div>
-                                        <div class="col-md-4">
-                                            <input type="text" name="contactSubject" class="form-control animated fadeInUp" placeholder="Subject" data-animate="fadeInUp" data-delay=".4" required="" style="animation-duration: 0.6s; animation-delay: 0.4s;">
-                                        </div>
-                                    </div>
-                                    <button class="btn-secondary-box">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
