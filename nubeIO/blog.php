@@ -71,7 +71,7 @@
                                     </li>
                                 </ul>
                                 <h2>
-                                  <a href="blog-cart5.php">Nube iO Collaborates with the Smart Infrastructure Facility and Devika</a>
+                                  <a href="blog-cart7.php">Nube iO Collaborates with the Smart Infrastructure Facility and Devika</a>
                               </h2>
                                 <p>
                                     Nube iO recently partnered with the University of Wollongong’s SMART Infrastructure Facility and Devika to produce a 3D virtual model of the digital living lab utilising Nube iO’s smart sensors. The collaboration involved installing 120 of our smart sensor Droplets into each room in the building, to monitor features of the built environment in real time such as temperature, humidity, light and motion.  
