@@ -59,7 +59,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <h1 class="title">Fujitsu Data Centres Uses Nube iO Technology</h1>
+                        <h1 class="title">Nube iO Collaborates with the Smart Infrastructure Facility and Devika</h1>
                         <p>
                             Nube iO recently partnered with the University of Wollongong’s SMART Infrastructure Facility and Devika to produce a 3D virtual model of the digital living lab utilising Nube iO’s smart sensors. The collaboration involved installing 120 of our smart sensor Droplets into each room in the building, to monitor features of the built environment in real time such as temperature, humidity, light and motion.                         
                         </p>
