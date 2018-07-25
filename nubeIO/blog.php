@@ -54,7 +54,29 @@
 	<section class="blog section">
 	    <div class="container">
 	        <div class="blog-wrapper">
-	            <div class="left-col blogs">
+	            <div class="left-col blogs">    
+			 <div class="blog-item">
+                            <div class="single-latest-news animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="animation-duration: 0.6s; animation-delay: 0.1s;">
+                                <a href="blog-cart8.php">
+                                    <img src="/assets/images/title8.jpg" alt="">
+                                </a>
+                                <ul class="post-details list-inline">
+                                    <li>
+                                        <i class="fa fa-calendar-o"></i>
+                                        <a href="#">July 12, 2018</a>
+                                    </li>
+                                     <li>
+                                        <a href="#">Company News</a>
+                                    </li>
+                                </ul>
+                                <h2>
+                                  <a href="blog-cart8.php">Transferring smart building data from the Nube iO Droplet (LoRa sensors) into Niagara</a>
+                              </h2>
+                                <p>
+                                    LoRa is a Low-Power, Long-Range wireless technology designed for the Internet of Things (IoT). Compared to WiFi, it requires less power and is less affected by buildings and other obstructions, with one Gateway generally being able to provide coverage for small to medium sized office buildings.        
+                                </p>
+                            </div>
+			</div>
 
                         <div class="blog-item">
                             <div class="single-latest-news animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="animation-duration: 0.6s; animation-delay: 0.1s;">
