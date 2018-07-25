@@ -55,7 +55,31 @@
 	    <div class="container">
 	        <div class="blog-wrapper">
 	            <div class="left-col blogs">    
-			 <div class="blog-item">
+			 
+			                           <div class="blog-item">
+                            <div class="single-latest-news animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="animation-duration: 0.6s; animation-delay: 0.1s;">
+                                <a href="blog-cart9.php">
+                                    <img src="assets/images/title9.jpg" alt="">
+                                </a>
+                                <ul class="post-details list-inline">
+                                    <li>
+                                        <i class="fa fa-calendar-o"></i>
+                                        <a href="#">July 15, 2018</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Company News</a>
+                                    </li>
+
+                                </ul>
+                                <h2>
+                                  <a href="blog-cart9.php">Nube iO is powered by Node-Red</a>
+                              </h2>
+                              <p> Node Red is a visual programming tool utilising open source software which allows developers and installers to connect and interface with their software and hardware for new projects. </p>
+                            </div>
+</div> 
+			    
+			    
+			   <div class="blog-item">
                             <div class="single-latest-news animated fadeInUp" data-animate="fadeInUp" data-delay=".1" style="animation-duration: 0.6s; animation-delay: 0.1s;">
                                 <a href="blog-cart8.php">
                                     <img src="/assets/images/title8.jpg" alt="">
