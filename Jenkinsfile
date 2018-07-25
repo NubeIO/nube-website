@@ -1,8 +1,13 @@
 pipeline {
-    agent { docker "busybox:latest" }
+    agent {
+        docker { 
+            image 'alpine:latest'
+            args '-v /var/run/docker.sock:/var/run/docker.sock:ro'
+        }
+    }
     environment {
         REPO = 'nubeio-sale'
-        PRIVATE_REPO = "${PRIVATE_REGISTRY}/${REPO}"
+        PRIVATE_REPO = "${PRIVATE_DOCKER_REGISTRY}/${REPO}"
     }
 
     stages {
@@ -10,28 +15,20 @@ pipeline {
         stage("Prepare") {
             steps {
                 script {
-                    def current = sh (
-                        script: 'date +%Y%m%d',
-                        returnStdout: true
-                    ).trim()
-                    def IMAGE_TAG = "${current}-${GIT_COMMIT.substring(0,8)}"
-                    def TAG = "${BRANCH_NAME}"
-                    if ("${BRANCH_NAME}" == "master") {
-                        TAG = "latest"
-                    }
+                    def current = sh (script: 'date +%Y%m%d', returnStdout: true).trim()
+                    HASH_TAG = "${current}.${GIT_COMMIT.substring(0,8)}"
+                    BRANCH_TAG = "${BRANCH_NAME}" == "master" ? "latest" : "${BRANCH_NAME}".replaceAll(/[^a-zA-Z0-9\.\-\_]+/, "-")
                 }
+                sh 'printenv'
+                sh 'apk add --no-cache bash git docker'
             }
         }
 
         stage("Build") {
             steps {
                 echo "Continous Integration"
-                sh "docker build -f .docker/Dockerfile -t ${REPO}:${IMAGE_TAG}"
-            }
-            post {
-                success {
-                    echo 'Tag for private registry'
-                    sh "docker tag ${REPO}:${IMAGE_TAG} ${PRIVATE_REPO}:${TAG}"
+                script {
+                    sh "docker build -t ${PRIVATE_REPO}:${HASH_TAG} -f .docker/Dockerfile ./"
                 }
             }
         }
@@ -39,8 +36,12 @@ pipeline {
         stage("Publish") {
             steps {
                 echo "Continous Delivery"
-                docker.withRegistry("${env.PRIVATE_REGISTRY}", "${env.DOCKER_CREDENTIALS}") {
-                    sh "docker push ${PRIVATE_REPO}:${TAG}"
+                script {
+                    docker.withRegistry("https://${env.PRIVATE_DOCKER_REGISTRY}", "${env.PRIVATE_DOCKER_CREDENTIALS}") {
+                        sh "docker tag  ${PRIVATE_REPO}:${HASH_TAG} ${PRIVATE_REPO}:${BRANCH_TAG}"
+                        sh "docker push ${PRIVATE_REPO}:${HASH_TAG}"
+                        sh "docker push ${PRIVATE_REPO}:${BRANCH_TAG}"
+                    }
                 }
             }
         }
@@ -50,14 +51,8 @@ pipeline {
     post {
         failure {
             script {
-                def committerEmail = sh (
-                    script: 'git --no-pager show -s --format=\'%ae\'',
-                    returnStdout: true
-                ).trim()
-                def committer = sh (
-                    script: 'git --no-pager show -s --format=\'%an\'',
-                    returnStdout: true
-                ).trim()
+                def committerEmail = sh (script: 'git --no-pager show -s --format=\'%ae\'', returnStdout: true).trim()
+                def committer = sh (script: 'git --no-pager show -s --format=\'%an\'', returnStdout: true).trim()
                 def content = """
                     - Job Name: ${env.JOB_NAME}
                     - Build URL: ${env.BUILD_URL}
